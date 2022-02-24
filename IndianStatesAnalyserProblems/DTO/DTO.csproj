@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A459139-A600-45C9-B8C1-9581A9780FBC}</ProjectGuid>
+    <ProjectGuid>{EDB0FA04-C88F-4391-8E24-9B2780BD394C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IndianStatesAnalyserProblems</RootNamespace>
-    <AssemblyName>IndianStatesAnalyserProblems</AssemblyName>
+    <RootNamespace>DTO</RootNamespace>
+    <AssemblyName>DTO</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CensusDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateCodeDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
